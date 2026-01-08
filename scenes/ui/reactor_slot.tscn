@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmcb4w6ls6vpn"]
+
+[ext_resource type="Script" uid="uid://ve5wacpli5p7" path="res://scenes/ui/reactor_slot.gd" id="1_slot"]
+[ext_resource type="Theme" uid="uid://r4b1j83wn6hn" path="res://themes/lab_theme.tres" id="2_theme"]
+
+[node name="ReactorSlot" type="PanelContainer"]
+custom_minimum_size = Vector2(80, 200)
+theme = ExtResource("2_theme")
+script = ExtResource("1_slot")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "1A"
+horizontal_alignment = 1
+
+[node name="ChromosomeHolder" type="CenterContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3

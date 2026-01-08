@@ -1,0 +1,56 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scenes/ui/reactor.gd" id="1_reactor"]
+[ext_resource type="Theme" path="res://themes/lab_theme.tres" id="2_theme"]
+
+[node name="Reactor" type="PanelContainer"]
+custom_minimum_size = Vector2(600, 280)
+theme = ExtResource("2_theme")
+script = ExtResource("1_reactor")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="TitleBar" type="PanelContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="TitleLabel" type="Label" parent="VBoxContainer/TitleBar"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "⚗️ Reactor"
+horizontal_alignment = 1
+
+[node name="SlotsContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+alignment = 1
+theme_override_constants/separation = 5
+
+[node name="StatusLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "Chr1: 0/2 | Chr2: 0/2 | Chr3: 0/2"
+horizontal_alignment = 1
+
+[node name="ButtonContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+theme_override_constants/separation = 20
+
+[node name="ClearButton" type="Button" parent="VBoxContainer/ButtonContainer"]
+custom_minimum_size = Vector2(120, 40)
+layout_mode = 2
+text = "Clear All"
+
+[node name="FuseButton" type="Button" parent="VBoxContainer/ButtonContainer"]
+custom_minimum_size = Vector2(150, 40)
+layout_mode = 2
+disabled = true
+text = "🧬 FUSE!"
+
+[node name="ImpossibleButton" type="Button" parent="VBoxContainer/ButtonContainer"]
+custom_minimum_size = Vector2(160, 40)
+layout_mode = 2
+visible = false
+text = "❌ Report Impossible"

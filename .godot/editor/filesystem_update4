@@ -1,0 +1,15 @@
+res://scenes/ui/info_popup.gd
+res://scenes/main.gd
+res://scenes/ui/gene_bank.gd
+res://scenes/ui/reactor.gd
+res://scenes/ui/results_panel.gd
+res://scenes/components/bio_mite.gd
+res://scenes/components/chromosome_visual.gd
+res://scenes/components/bio_mite.tscn
+res://scenes/components/chromosome_visual.tscn
+res://scenes/ui/reactor_slot.tscn
+res://scenes/main.tscn
+res://themes/lab_theme.tres
+res://scenes/ui/info_popup.tscn
+res://scenes/ui/results_panel.tscn
+res://scenes/ui/reactor_slot.gd

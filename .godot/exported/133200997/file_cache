@@ -1,0 +1,9 @@
+res://scenes/components/bio_mite.tscn::84d6dd5142e3c352e12b9c59e6aacaa3::1767808190::res://.godot/exported/133200997/export-87e823d43dcffbf9e589e837d4c4f42f-bio_mite.scn
+res://scenes/components/chromosome_visual.tscn::96d8a140bd7df740d124009a6dfa8127::1767808191::res://.godot/exported/133200997/export-b9f49476dfbcf3190855c5f8c0da85e0-chromosome_visual.scn
+res://scenes/ui/gene_bank.tscn::8dd8c20636f51c28873a03640d3e9695::1767808148::res://.godot/exported/133200997/export-37e3e87e675a93aeb975bbb99fd15bab-gene_bank.scn
+res://scenes/ui/info_popup.tscn::d901b79be041dd4fca7bcbde70bb6d31::1767809454::res://.godot/exported/133200997/export-a776a008bf4a06f33bfbd223c8ebd189-info_popup.scn
+res://scenes/ui/reactor.tscn::722e5b410d66c35ed4681996b920fb47::1767808149::res://.godot/exported/133200997/export-2e5b9ee68cb49e7a8d2abe0fac49927a-reactor.scn
+res://scenes/ui/reactor_slot.tscn::2481ee0e4f9cf2b266528254758cfa4f::1767808192::res://.godot/exported/133200997/export-58431090ddcb3db7e4084d4269876b10-reactor_slot.scn
+res://scenes/ui/results_panel.tscn::0764ad996fab9995ac98fe48256d8789::1767809486::res://.godot/exported/133200997/export-c6540961db0fffb093514909144e0b00-results_panel.scn
+res://scenes/main.tscn::2156e7b4dd6b45feb85abc758ffacfbe::1767809239::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
+res://themes/lab_theme.tres::72294d0cfea7c84ec0374c927f8831d1::1767809239::res://.godot/exported/133200997/export-78e0220e6b7302ba6156dd01603ee61d-lab_theme.res

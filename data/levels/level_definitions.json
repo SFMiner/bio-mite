@@ -1,0 +1,129 @@
+{
+	"levels": {
+		"1": {
+			"name": "Simple Dominance",
+			"goal_text": "Create a Bio-Mite with Pointed Antennae",
+			"goal_phenotype": {
+				"Antennae": "Pointed"
+			},
+			"hint": "You only need ONE dominant allele to see a dominant trait!",
+			"focus": "Student learns they only need one dominant allele to see the trait.",
+			"is_impossible": false,
+			"chromosome_library": {
+				"1": [
+					{"id": "1A", "alleles": [{"trait": "Body Shape", "value": "Round"}, {"trait": "Glow", "value": "Neon"}]},
+					{"id": "1B", "alleles": [{"trait": "Body Shape", "value": "Square"}, {"trait": "Glow", "value": "Dull"}]}
+				],
+				"2": [
+					{"id": "2A", "alleles": [{"trait": "Antennae", "value": "Pointed"}, {"trait": "Texture", "value": "Smooth"}]},
+					{"id": "2B", "alleles": [{"trait": "Antennae", "value": "Rounded"}, {"trait": "Texture", "value": "Bumpy"}]}
+				],
+				"3": [
+					{"id": "3A", "alleles": [{"trait": "Legs", "value": "Long"}, {"trait": "Eyes", "value": "Big"}]},
+					{"id": "3B", "alleles": [{"trait": "Legs", "value": "Short"}, {"trait": "Eyes", "value": "Small"}]}
+				]
+			}
+		},
+		"2": {
+			"name": "The Recessive Challenge",
+			"goal_text": "Create a Bio-Mite with Short Legs",
+			"goal_phenotype": {
+				"Legs": "Short"
+			},
+			"hint": "To see a RECESSIVE trait, you need TWO copies of the recessive allele!",
+			"focus": "Student learns they need a homozygous recessive pair (ll).",
+			"is_impossible": false,
+			"chromosome_library": {
+				"1": [
+					{"id": "1A", "alleles": [{"trait": "Body Shape", "value": "Round"}, {"trait": "Glow", "value": "Neon"}]},
+					{"id": "1B", "alleles": [{"trait": "Body Shape", "value": "Square"}, {"trait": "Glow", "value": "Dull"}]}
+				],
+				"2": [
+					{"id": "2A", "alleles": [{"trait": "Antennae", "value": "Pointed"}, {"trait": "Texture", "value": "Smooth"}]},
+					{"id": "2B", "alleles": [{"trait": "Antennae", "value": "Rounded"}, {"trait": "Texture", "value": "Bumpy"}]}
+				],
+				"3": [
+					{"id": "3A", "alleles": [{"trait": "Legs", "value": "Long"}, {"trait": "Eyes", "value": "Big"}]},
+					{"id": "3B", "alleles": [{"trait": "Legs", "value": "Short"}, {"trait": "Eyes", "value": "Small"}]},
+					{"id": "3C", "alleles": [{"trait": "Legs", "value": "Short"}, {"trait": "Eyes", "value": "Big"}]}
+				]
+			}
+		},
+		"3": {
+			"name": "The Trisomy Error",
+			"goal_text": "Try adding 3 copies of Chromosome 1 and see what happens!",
+			"goal_phenotype": {},
+			"hint": "Organisms need EXACTLY 2 copies of each chromosome type to survive.",
+			"focus": "Student learns about chromosomal balance and viability.",
+			"is_impossible": false,
+			"special_goal": "trisomy_experiment",
+			"chromosome_library": {
+				"1": [
+					{"id": "1A", "alleles": [{"trait": "Body Shape", "value": "Round"}, {"trait": "Glow", "value": "Neon"}]},
+					{"id": "1B", "alleles": [{"trait": "Body Shape", "value": "Square"}, {"trait": "Glow", "value": "Dull"}]},
+					{"id": "1C", "alleles": [{"trait": "Body Shape", "value": "Round"}, {"trait": "Glow", "value": "Dull"}]}
+				],
+				"2": [
+					{"id": "2A", "alleles": [{"trait": "Antennae", "value": "Pointed"}, {"trait": "Texture", "value": "Smooth"}]},
+					{"id": "2B", "alleles": [{"trait": "Antennae", "value": "Rounded"}, {"trait": "Texture", "value": "Bumpy"}]}
+				],
+				"3": [
+					{"id": "3A", "alleles": [{"trait": "Legs", "value": "Long"}, {"trait": "Eyes", "value": "Big"}]},
+					{"id": "3B", "alleles": [{"trait": "Legs", "value": "Short"}, {"trait": "Eyes", "value": "Small"}]}
+				]
+			}
+		},
+		"4": {
+			"name": "Linked Traits",
+			"goal_text": "Create a Bio-Mite that is Round AND Neon",
+			"goal_phenotype": {
+				"Body Shape": "Round",
+				"Glow": "Neon"
+			},
+			"hint": "Notice how Round and Neon always appear TOGETHER on the same chromosome...",
+			"focus": "Student notices that Round and Neon always appear on the same physical bar.",
+			"is_impossible": false,
+			"chromosome_library": {
+				"1": [
+					{"id": "1A", "alleles": [{"trait": "Body Shape", "value": "Round"}, {"trait": "Glow", "value": "Neon"}]},
+					{"id": "1B", "alleles": [{"trait": "Body Shape", "value": "Square"}, {"trait": "Glow", "value": "Dull"}]}
+				],
+				"2": [
+					{"id": "2A", "alleles": [{"trait": "Antennae", "value": "Pointed"}, {"trait": "Texture", "value": "Smooth"}]},
+					{"id": "2B", "alleles": [{"trait": "Antennae", "value": "Rounded"}, {"trait": "Texture", "value": "Bumpy"}]}
+				],
+				"3": [
+					{"id": "3A", "alleles": [{"trait": "Legs", "value": "Long"}, {"trait": "Eyes", "value": "Big"}]},
+					{"id": "3B", "alleles": [{"trait": "Legs", "value": "Short"}, {"trait": "Eyes", "value": "Small"}]}
+				]
+			}
+		},
+		"5": {
+			"name": "The Impossible Link",
+			"goal_text": "Create a Bio-Mite that is Square AND Neon",
+			"goal_phenotype": {
+				"Body Shape": "Square",
+				"Glow": "Neon"
+			},
+			"hint": "Look carefully at the chromosomes. Is there ANY chromosome with Square AND Neon together?",
+			"focus": "The Aha! Moment: Student must conclude that without breaking the chromosome, this combination is impossible.",
+			"is_impossible": true,
+			"impossible_explanation": "Because Body Shape and Glow are on the SAME chromosome (linked genes), and no chromosome in the library has both Square AND Neon together, this combination is IMPOSSIBLE to create! This is called GENETIC LINKAGE.",
+			"chromosome_library": {
+				"1": [
+					{"id": "1A", "alleles": [{"trait": "Body Shape", "value": "Round"}, {"trait": "Glow", "value": "Neon"}]},
+					{"id": "1B", "alleles": [{"trait": "Body Shape", "value": "Square"}, {"trait": "Glow", "value": "Dull"}]},
+					{"id": "1C", "alleles": [{"trait": "Body Shape", "value": "Round"}, {"trait": "Glow", "value": "Dull"}]}
+				],
+				"2": [
+					{"id": "2A", "alleles": [{"trait": "Antennae", "value": "Pointed"}, {"trait": "Texture", "value": "Smooth"}]},
+					{"id": "2B", "alleles": [{"trait": "Antennae", "value": "Rounded"}, {"trait": "Texture", "value": "Bumpy"}]}
+				],
+				"3": [
+					{"id": "3A", "alleles": [{"trait": "Legs", "value": "Long"}, {"trait": "Eyes", "value": "Big"}]},
+					{"id": "3B", "alleles": [{"trait": "Legs", "value": "Short"}, {"trait": "Eyes", "value": "Small"}]}
+				]
+			}
+		}
+	}
+}
