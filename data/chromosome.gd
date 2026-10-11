@@ -50,17 +50,12 @@ func get_allele_for_trait(trait_name: String) -> Allele:
 	return null
 
 
-## Get a formatted string showing all alleles
-func get_info_text() -> String:
-	var lines: Array[String] = []
-	lines.append("Chromosome %d (%s)" % [type, id])
-	lines.append("─────────────────")
-	
+## One-line description for the status line, e.g. "1A: Round (R, dominant) + Neon (N, dominant)"
+func describe() -> String:
+	var parts: Array[String] = []
 	for allele: Allele in alleles:
-		var dom_text: String = "●" if allele.is_dominant else "○"
-		lines.append("%s %s: %s" % [dom_text, allele.trait_name, allele.value])
-	
-	return "\n".join(lines)
+		parts.append("%s (%s, %s)" % [allele.value, allele.get_symbol(), "dominant" if allele.is_dominant else "recessive"])
+	return "%s: %s" % [id, " + ".join(parts)]
 
 
 ## Create a deep copy of this chromosome

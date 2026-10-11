@@ -12,14 +12,10 @@ config_version=5
 
 config/name="Bio-Mite Architect"
 config/description="Educational puzzle game teaching chromosome linkage and Mendelian genetics"
+config/version="2.0"
 run/main_scene="res://scenes/main.tscn"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
-
-[autoload]
-
-GameConstants="*res://autoload/game_constants.gd"
-LevelManager="*res://autoload/level_manager.gd"
 
 [display]
 

@@ -1,0 +1,5 @@
+Bio-Mite Architect - credits
+
+Game, art and text: Sean Miner (all graphics are drawn in code).
+Font: Godot's built-in default font.
+No music or sound effects.

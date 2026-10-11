@@ -37,13 +37,15 @@ static func from_dict(data: Dictionary) -> Allele:
 	return allele
 
 
-## Get shorthand notation (uppercase if dominant, lowercase if recessive)
+## Genotype symbol: the trait's letter, uppercase if dominant (R), lowercase if recessive (r)
 func get_symbol() -> String:
-	var first_letter: String = value[0] if value.length() > 0 else "?"
-	if is_dominant:
-		return first_letter.to_upper()
-	else:
-		return first_letter.to_lower()
+	return GameConstants.allele_symbol(trait_name, value)
+
+
+## Shape drawn on this allele's band
+var shape: String:
+	get:
+		return GameConstants.get_allele_shape(value)
 
 
 ## Create a duplicate of this allele
