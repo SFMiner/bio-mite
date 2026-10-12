@@ -33,7 +33,7 @@ sims.mr-miner.com. Author Sean Miner; MIT license.
 - [x] No emoji or symbols (a test scans every script and the level file)
 - [x] Web export with the lean 2D template: `..\exports\bio-mite\` (22.3 MB wasm, 68 KB pck)
 - [ ] Classroom try-out on Chromebooks
-- [ ] Put on sims.mr-miner.com (hidden first)
+- [x] Published on sims.mr-miner.com (2026-10-11): https://sims.mr-miner.com/play/bio-mite
 - [ ] Possible later level: crossing over (the game's chromosomes always stay whole)
 
 ## Layout
